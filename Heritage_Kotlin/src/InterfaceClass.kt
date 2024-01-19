@@ -4,7 +4,13 @@ interface CharacterMelee {
     }
 }
 
-abstract class Character(nameCharacter: String): CharacterMelee {
+interface CharacterHuman {
+    fun typeCharacter() {
+        println("This is char is human.")
+    }
+}
+
+abstract class Character(nameCharacter: String): CharacterMelee, CharacterHuman {
     abstract fun wake()
     abstract fun talk()
     abstract fun eat()
@@ -31,4 +37,5 @@ class Warrior(nameWarrior: String): Character(nameWarrior) {
 fun main() {
     val warrior = Warrior("War")
     warrior.attack()
+    warrior.typeCharacter()
 }
