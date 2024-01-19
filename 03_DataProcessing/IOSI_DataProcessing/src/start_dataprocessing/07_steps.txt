@@ -1,0 +1,7 @@
+Walk
+Idle
+Sleep
+Talk
+Eat
+
+Steps Life
