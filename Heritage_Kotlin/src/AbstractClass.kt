@@ -19,6 +19,7 @@ class Dog(nameAnimal: String): Mammal(nameAnimal) {
     }
 }
 
+
 fun main() {
     val animal: Dog = Dog("Bolt")
     animal.eat()
