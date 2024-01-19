@@ -13,12 +13,11 @@ class Program {
     }
 }
 
-class Event(): Events {
-    override fun ok() = println("Program is ok.")
-}
-
 fun main() {
     val program = Program()
-    val event = Event()
-    program.saveProgram(event)
+    program.saveProgram(object : Events {
+        override fun ok() {
+            println("Program is ok.")
+        }
+    })
 }
