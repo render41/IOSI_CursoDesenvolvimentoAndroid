@@ -6,4 +6,8 @@
     <string name="imagetestString">Image Test</string>
     <string name="primaryButton">Botão Primário</string>
     <string name="secondaryButton">Botão Secundário</string>
+    <string name="notesString">Notes</string>
+    <string name="markThisBoxString">Mark this Box</string>
+    <string name="completeAllTasksString">Complete all Tasks</string>
+    <string name="dontMarkThisBoxString">Don\'t Mark this Box</string>
 </resources>
