@@ -5,4 +5,5 @@
     <string name="passwordString">Password</string>
     <string name="imagetestString">Image Test</string>
     <string name="primaryButton">Botão Primário</string>
+    <string name="secondaryButton">Botão Secundário</string>
 </resources>

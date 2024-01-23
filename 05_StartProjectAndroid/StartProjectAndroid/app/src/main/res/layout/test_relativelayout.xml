@@ -8,6 +8,18 @@
         android:id="@+id/button01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@id/button02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
         android:text="@string/primaryButton" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/secondaryButton" />
 
 </RelativeLayout>
