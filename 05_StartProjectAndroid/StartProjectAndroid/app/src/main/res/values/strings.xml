@@ -10,4 +10,5 @@
     <string name="markThisBoxString">Mark this Box</string>
     <string name="completeAllTasksString">Complete all Tasks</string>
     <string name="dontMarkThisBoxString">Don\'t Mark this Box</string>
+    <string name="helloWorldString">Hello World</string>
 </resources>
